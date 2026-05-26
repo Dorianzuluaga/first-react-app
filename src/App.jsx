@@ -4,7 +4,8 @@ function App() {
   return (
     <div>
       <h1>Hello Dorian</h1>
-      <p>React funcionando</p>
+      <p>React + Vite + GitHub funcionando</p>
+      <button>Mi primer botón</button>
     </div>
   );
 }
