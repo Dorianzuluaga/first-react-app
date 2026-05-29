@@ -1,12 +1,11 @@
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
-      <h1>Hello Dorian</h1>
-      <p>React + Vite + GitHub funcionando</p>
-      <button>Mi primer botón</button>
-    </div>
+    <main className="min-h-screen bg-zinc-700 text-white">
+      <Hero />
+    </main>
   );
 }
 
